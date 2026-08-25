@@ -1,0 +1,21 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Keep example vars but ignore real ones if you add secrets later
+# terraform.tfvars
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
